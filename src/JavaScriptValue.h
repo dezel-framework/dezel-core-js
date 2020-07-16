@@ -348,56 +348,56 @@ bool JavaScriptValueEqualsNumber(JSContextRef context, JSValueRef value1, double
 bool JavaScriptValueEqualsBoolean(JSContextRef context, JSValueRef value1, bool value2);
 
 /**
- * Indicates whether the specified value is a boolean.
+ * Whether the specified value is a boolean.
  * @function JavaScriptValueIsBoolean
  * @since 0.1.0
  */
 bool JavaScriptValueIsBoolean(JSContextRef context, JSValueRef value);
 
 /**
- * Indicates whether the specified value is a number.
+ * Whether the specified value is a number.
  * @function JavaScriptValueIsNumber
  * @since 0.1.0
  */
 bool JavaScriptValueIsNumber(JSContextRef context, JSValueRef value);
 
 /**
- * Indicates whether the specified value is a string.
+ * Whether the specified value is a string.
  * @function JavaScriptValueIsString
  * @since 0.1.0
  */
 bool JavaScriptValueIsString(JSContextRef context, JSValueRef value);
 
 /**
- * Indicates whether the specified value is a function.
+ * Whether the specified value is a function.
  * @function JavaScriptValueIsFunction
  * @since 0.1.0
  */
 bool JavaScriptValueIsFunction(JSContextRef context, JSValueRef value);
 
 /**
- * Indicates whether the specified value is an object.
+ * Whether the specified value is an object.
  * @function JavaScriptValueIsObject
  * @since 0.1.0
  */
 bool JavaScriptValueIsObject(JSContextRef context, JSValueRef value);
 
 /**
- * Indicates whether the specified value is an array.
+ * Whether the specified value is an array.
  * @function JavaScriptValueIsArray
  * @since 0.1.0
  */
 bool JavaScriptValueIsArray(JSContextRef context, JSValueRef value);
 
 /**
- * Indicates whether the specified value is undefined.
+ * Whether the specified value is undefined.
  * @function JavaScriptValueIsUndefined
  * @since 0.1.0
  */
 bool JavaScriptValueIsUndefined(JSContextRef context, JSValueRef value);
 
 /**
- * Indicates whether the specified value is null.
+ * Whether the specified value is null.
  * @function JavaScriptValueIsNull
  * @since 0.1.0
  */
